@@ -56,7 +56,7 @@ def get_vid(resp):
     tot_size = resp.headers["Content-Length"]
     buff = resp.read(1024)
     done = 0
-    fp = open("tmp/" + v_title, "wb+")
+    fp = open(v_title, "wb+")
     while buff:
         fp.write(buff)
         done += 1024
