@@ -1,3 +1,8 @@
+# @author : PaulLiu9196
+# @date   : Aug 11 2016
+# @brief  : a demostration of a youtube video downloader.
+
+
 import urllib
 from urllib import request
 from urllib.parse import parse_qs
@@ -6,10 +11,6 @@ import sys
 
 # THE BASIC IDEA OF PARSING YOUTUBE VIDEOS,
 # WITHOUT COMPLETE EXCEPTION HANDLING
-
-# V2:
-# Add non-English support.
-# fix video name containing '/' problem.
 
 
 def get_vid(resp):
